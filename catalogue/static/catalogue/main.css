@@ -1,0 +1,56 @@
+body {
+	background: #fafafa;
+	color: #333333;
+	margin-top: 5rem;
+	min-width: fit-content; 
+	background-image: url("https://image.freepik.com/free-photo/lake-summer-view-with-pink-flowers-front-sweden_392053-6157.jpg");
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;	
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: 100% 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #444444;
+}
+
+ul {
+	margin: 0;
+}
+
+.site-header .navbar-nav .nav-link {
+	color: #cbd5db;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+	color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+	font-weight: 500;
+}
+
+.content-section {
+	background: #ffffff;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+}
+
+.table-container {
+    display: block;
+	width: 100%;
+	border: 1px solid #3b0241;
+	border-radius: 3px;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.form-group{
+	margin-right: 6px;
+}
+
+.form-group label{
+	margin-right: 4px;
+}

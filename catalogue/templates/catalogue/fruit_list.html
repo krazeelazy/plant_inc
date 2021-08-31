@@ -1,0 +1,27 @@
+{% extends "catalogue/layout.html" %}
+{% block content %}
+    <div class="content-section table-container">
+        <table class="table table-bordered mx-auto text-center">
+            <tr>
+                <th>Fruit Name</th>
+                <th>Colour</th>
+                <th>Size</th>
+                <th>Is Local?</th>
+            </tr>
+            {% for fruit in fruits %}
+            <tr>
+                <td>{{ fruit.name }}</td>
+                <td>{{ fruit.colour }}</td>
+                <td>{{ fruit.size }} cm</td>
+                <td>
+                    {% if fruit.is_local%}
+                        Yes
+                    {% else %}
+                        No
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+{% endblock content %}

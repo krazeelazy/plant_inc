@@ -1,0 +1,32 @@
+[
+{
+    "model": "catalogue.fruit",
+    "pk": 1,
+    "fields": {
+        "name": "Banana",
+        "colour": "Yellow",
+        "size": "15.00",
+        "is_local": true
+    }
+},
+{
+    "model": "catalogue.fruit",
+    "pk": 2,
+    "fields": {
+        "name": "Watermelon",
+        "colour": "Green",
+        "size": "20.00",
+        "is_local": true
+    }
+},
+{
+    "model": "catalogue.fruit",
+    "pk": 3,
+    "fields": {
+        "name": "Kiwi",
+        "colour": "Brown",
+        "size": "5.50",
+        "is_local": false
+    }
+}
+]
